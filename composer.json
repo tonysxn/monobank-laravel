@@ -3,6 +3,7 @@
     "description": "Laravel wrapper package for the monobank API",
     "license": "MIT",
     "version": "1.0.0",
+    "minimum-stability": "1.0.0",
     "authors": [
         {
             "name": "Anton Sanin",
