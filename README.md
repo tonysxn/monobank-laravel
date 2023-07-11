@@ -1,7 +1,7 @@
 # Laravel Monobank
 A Laravel package for the Monobank
 
-## Instalation
+## Installation
 ```
 composer require neverlxsss/monobank-laravel
 ```
