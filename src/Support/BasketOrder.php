@@ -9,14 +9,14 @@ class BasketOrder
     public string $name;
     public int $quantity;
     public int $sum;
-    public string $icon;
-    public string $unit;
-    public string $code;
-    public string $barcode;
-    public string $header;
-    public string $footer;
-    public array $tax;
-    public string $uktzed;
+    public ?string $icon;
+    public ?string $unit;
+    public ?string $code;
+    public ?string $barcode;
+    public ?string $header;
+    public ?string $footer;
+    public ?array $tax;
+    public ?string $uktzed;
 
     public function __construct(
         string $name,
