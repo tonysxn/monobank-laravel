@@ -7,7 +7,7 @@ use Mockery\Exception;
 class SaveCardData
 {
     public bool $saveCard;
-    public string $walletId;
+    public ?string $walletId;
 
     public function __construct(
         bool $saveCard,
