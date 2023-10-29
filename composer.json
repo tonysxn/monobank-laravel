@@ -2,7 +2,7 @@
     "name": "neverlxsss/monobank-laravel",
     "description": "Laravel wrapper package for the monobank API",
     "license": "MIT",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "minimum-stability": "stable",
     "authors": [
         {
