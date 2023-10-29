@@ -7,7 +7,7 @@ use Mockery\Exception;
 class BasketOrder
 {
     public string $name;
-    public int $quantity;
+    public int $qty;
     public int $sum;
     public ?string $icon;
     public ?string $unit;
@@ -20,7 +20,7 @@ class BasketOrder
 
     public function __construct(
         string $name,
-        int $quantity,
+        int $qty,
         int $sum,
         string $icon = null,
         string $unit = null,
@@ -36,7 +36,7 @@ class BasketOrder
             throw new Exception("Name is required for BasketOrder");
         }
 
-        if ($quantity <= 0) {
+        if ($qty <= 0) {
             throw new Exception("Quantity for BasketOrder should be a positive number");
         }
 
@@ -45,7 +45,7 @@ class BasketOrder
         }
 
         $this->name = $name;
-        $this->quantity = $quantity;
+        $this->qty = $qty;
         $this->sum = $sum;
         $this->icon = $icon;
         $this->unit = $unit;
