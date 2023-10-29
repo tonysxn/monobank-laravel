@@ -6,9 +6,9 @@ use Mockery\Exception;
 
 class MerchantPaymentInfo
 {
-    public string $reference;
-    public string $destination;
-    public array $basketOrder;
+    public ?string $reference;
+    public ?string $destination;
+    public ?array $basketOrder;
 
     public function __construct(
         string $reference = null,
